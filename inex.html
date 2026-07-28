@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mehak Krishali | Portfolio</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f7fb;
+            color: #333;
+        }
+
+        header {
+            background-color: #1f2937;
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        header h1 {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 20px;
+        }
+
+        nav {
+            background-color: white;
+            text-align: center;
+            padding: 15px;
+            position: sticky;
+            top: 0;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        section {
+            max-width: 1000px;
+            margin: auto;
+            padding: 50px 20px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #1f2937;
+            margin-bottom: 30px;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .skill {
+            background-color: white;
+            padding: 15px 25px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .project {
+            background-color: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .project h3 {
+            color: #2563eb;
+        }
+
+        .contact {
+            text-align: center;
+        }
+
+        .button {
+            display: inline-block;
+            background-color: #2563eb;
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 6px;
+            margin-top: 15px;
+        }
+
+        footer {
+            background-color: #1f2937;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Hi, I'm Mehak Krishali 👋</h1>
+        <p>BCA Student | Aspiring Data Analyst | Frontend Developer</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+
+        <p>
+            I am a BCA student passionate about Data Analytics and Frontend Development.
+            I enjoy working with data, creating dashboards, and building responsive
+            web applications. I am currently learning Python, SQL, Power BI,
+            HTML, CSS, and JavaScript.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>My Skills</h2>
+
+        <div class="skills">
+            <div class="skill">Python</div>
+            <div class="skill">SQL</div>
+            <div class="skill">Excel</div>
+            <div class="skill">Power BI</div>
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">Pandas</div>
+            <div class="skill">NumPy</div>
+            <div class="skill">Git & GitHub</div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+
+        <div class="projects">
+
+            <div class="project">
+                <h3>📊 Blinkit Sales Analysis</h3>
+                <p>
+                    Created a Power BI dashboard to analyze sales performance,
+                    outlet performance, and product trends.
+                </p>
+                <p><strong>Tools:</strong> Excel, Power BI, DAX</p>
+            </div>
+
+            <div class="project">
+                <h3>💰 Expense Tracker</h3>
+                <p>
+                    Developed a responsive expense tracker that allows users
+                    to manage income and expenses.
+                </p>
+                <p><strong>Tools:</strong> HTML, CSS, JavaScript</p>
+            </div>
+
+            <div class="project">
+                <h3>🌍 LULC Classification</h3>
+                <p>
+                    Worked on Land Use and Land Cover classification and
+                    decadal change detection using machine learning.
+                </p>
+                <p><strong>Tools:</strong> Google Earth Engine, Machine Learning</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+
+        <div class="contact">
+            <p>I'm open to learning opportunities, internships, and projects.</p>
+
+            <a class="button" href="mailto:your-email@gmail.com">
+                Contact Me
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Mehak Krishali | Portfolio</p>
+    </footer>
+
+</body>
+</html>
